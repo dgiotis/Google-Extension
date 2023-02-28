@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+    padding: 10px;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #446;
+    min-width: 400px;
+    
+
+}
+ a:link{
+    color:rgb(70, 240, 27);
+} 
+a{
+    color: rgb(134, 126, 6);
+}
+
+a:hover{
+    color: rgb(255, 5, 130);
+}
+li{
+    /* IMPORTING ICON */
+    list-style: none;
+    padding: 10px 30px;
+    background-image: url("assets/lighticon.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 40px;
+    
+}
+
+
+    
+input{
+    height: 30px;
+    width: 100%;
+    padding:10px;
+    box-sizing: border-box;
+    border:1px solid #5f9341;
+    margin-bottom: 4px;
+}
+
+button{
+    background-color: #5f9341;
+    color: white;
+    height: 30px;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+}
+#ul-el{
+    list-style-image: url("lighticon.png") ;
+}
